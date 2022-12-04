@@ -1,0 +1,60 @@
+body {
+  background-color:lightgray;
+  height: 100%;
+  width: 100%;
+}
+input {
+  border: 0 solid black;
+  outline: none;
+  border-radius: 2px;
+  background: transparent;
+}
+input:focus {
+  outline: none;
+  color: white;
+}
+input::placeholder {
+  color: white;
+}
+.hidden {
+  display: none;
+}
+button {
+  color: white;
+  border: 0 solid black;
+  border-radius: 2px;
+  background: transparent;
+}
+.block1 {
+  color: whitesmoke;
+  height: 48vh;
+  margin: 5px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items:flex-end;
+  box-sizing: border-box;
+}
+#login-form,
+#clock,
+#todo-form,
+#weather {
+  text-align: center;
+}
+.block2 {
+  color: whitesmoke;
+  background-color: darkgrey;
+  height: 47vh;
+  margin: 5px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items:flex-start;
+  box-sizing: border-box;
+}
